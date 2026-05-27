@@ -396,6 +396,34 @@ h4 {
   margin-bottom: 0;
 }
 
+.profile-facts {
+  display: grid;
+  gap: 10px;
+  margin: 24px 0 0;
+}
+
+.profile-fact {
+  display: grid;
+  grid-template-columns: 112px minmax(0, 1fr);
+  gap: 14px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.profile-fact dt {
+  color: var(--accent-2);
+  font-size: 0.78rem;
+  font-weight: 900;
+}
+
+.profile-fact dd {
+  margin: 0;
+  color: #e8eef7;
+  font-weight: 700;
+}
+
 .project-grid {
   display: grid;
   gap: 28px;
@@ -615,7 +643,8 @@ h4 {
   }
 
   .project-stats,
-  .skill-grid {
+  .skill-grid,
+  .profile-fact {
     grid-template-columns: 1fr;
   }
 

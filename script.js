@@ -66,6 +66,14 @@ function renderProfile() {
     aboutBody.appendChild(createElement("p", "", paragraph));
   });
 
+  const factList = createElement("dl", "profile-facts");
+  profile.facts.forEach((fact) => {
+    const item = createElement("div", "profile-fact");
+    item.append(createElement("dt", "", fact.label), createElement("dd", "", fact.value));
+    factList.appendChild(item);
+  });
+  aboutBody.appendChild(factList);
+
   const contactLinks = document.getElementById("contact-links");
   Object.entries(profile.links).forEach(([key, href]) => {
     contactLinks.appendChild(createLink(key, href, "panel"));

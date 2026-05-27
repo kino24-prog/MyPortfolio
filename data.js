@@ -8,6 +8,16 @@ const profile = {
     "プレイヤー操作やステージギミックの実装に加えて、仕様書作成、音響制作、楽曲制作にも関わってきました。",
     "チームの中で遊びやすさと実装のしやすさを考えながら、作品を完成まで持っていくことを大切にしています。"
   ],
+  facts: [
+    {
+      label: "Education",
+      value: "大阪公立大学 工学部 情報工学科（29卒予定）"
+    },
+    {
+      label: "Club",
+      value: "大阪公立大学 中百舌鳥キャンパス パソコン部 ComputerHouse Random 副部長"
+    }
+  ],
   links: {
     x: "https://x.com/pita2pita6?s=21",
     instagram: "https://www.instagram.com/kinopita_24?igsh=MThxdHd4ZHFheTFhdw%3D%3D&utm_source=qr",
